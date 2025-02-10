@@ -1,0 +1,15 @@
+body{
+    background-color: bisque;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    margin-left: 10px;
+    height: 35px;
+  }
+  
