@@ -1,8 +1,8 @@
 // Create a object calculator, which will have methods read,add,subtract and multiply. read method will use prompt to ask two values from user.
 const calculator = {
     read() {
-        let input1 = parseFloat(prompt("enter one number"));
-        let input2 = parseFloat(prompt("enter two number"));
+        const input1 = parseFloat(prompt("enter one number"));
+        const input2 = parseFloat(prompt("enter two number"));
         return {
             input1:input1,
             input2:input2
@@ -19,11 +19,11 @@ const calculator = {
     }
 };
 function handleCalculator(){
-    let values = calculator.read();
+    const values = calculator.read();
     operation(values);
 }
 function operation(values) {
-    let operation = prompt("1.Addition \n 2.Multiplication \n 3.Subtraction");
+    const operation = prompt("1.Addition \n 2.Multiplication \n 3.Subtraction");
     switch (operation) {
         case "1":
             alert(`Addition is ${calculator.add(values.input1,values.input2)}`);
