@@ -99,7 +99,7 @@ console.log(`area of cylinder ${modules.areaOfCylinder(radius,height)}`);
 console.log(`PI value is ${modules.PI}`);
 
 // Import a module for filtering unique elements in an array.
-import modules from "./modules.js";
+// import modules from "./modules.js";
 modules.filterUniqueArrayElements([1,1,1,2,3,4,4]);
 
 // Write a program to flatten a nested array to single level using arrow functions
